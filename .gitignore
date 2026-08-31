@@ -1,0 +1,30 @@
+# Environment variables (contains API keys)
+.env
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Vector store — regenerable Chroma index, not source (see README)
+vectorStore/
+chroma.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store

@@ -1,0 +1,28 @@
+[project]
+name = "sec-rag"
+version = "0.1.0"
+description = "A hybrid RAG pipeline over SEC filings"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Johan" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=1.0.0",
+    "chromadb>=1.5.9",
+    "edgartools>=5.52.0",
+    "fastmcp>=3.4.7",
+    "ipykernel>=7.3.0",
+    "langchain-text-splitters>=1.1.2",
+    "numpy>=2.5.2",
+    "python-dotenv>=1.2.3",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.9.0",
+    "sentence-transformers>=6.0.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"

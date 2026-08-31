@@ -1,0 +1,11 @@
+edgartools
+sentence-transformers
+rank-bm25
+chromadb
+anthropic
+python-dotenv
+numpy
+scikit-learn
+langchain-text-splitters
+fastmcp
+ipykernel
